@@ -28,10 +28,9 @@
 <header>
 <nav class="navbar navbar-expand-lg fixed-top" id="nav" aria-label="Principal">
  <div class="container">
-  <a class="navbar-brand logo" href="#inicio" aria-label="Studio T O Designer - início"><span>TO</span><small>Thiago Oliveira</small></a>
-  <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-label="Abrir menu"><i class="bi bi-list"></i></button>
+  <button class="navbar-toggler ms-auto" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-label="Abrir menu"><i class="bi bi-list"></i></button>
   <div class="offcanvas offcanvas-end" tabindex="-1" id="menu">
-   <div class="offcanvas-header"><span class="logo"><span>TO</span></span><button class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Fechar menu"></button></div>
+   <div class="offcanvas-header"><button class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Fechar menu"></button></div>
    <div class="offcanvas-body align-items-lg-center">
     <ul class="navbar-nav mx-auto gap-lg-1">
      <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
@@ -53,7 +52,12 @@
 <section id="inicio" class="hero"><div class="hero-grid" aria-hidden="true"></div>
  <div class="container"><div class="row align-items-center g-5">
   <div class="col-lg-7">
-   <p class="badges"><span class="chip">★ 5,0 no Google</span> <span class="chip" id="openChip">Aberto hoje até 19h</span></p>
+   <div class="hero-brand">
+    <!-- Logo do cliente atualizada com a pasta e nome corretos -->
+    <img src="img/logo-studio-to.jpeg" width="700" height="700" alt="Logotipo Studio T O, com letras T e O e espelho dourado">
+    <span class="chip gl">⭐ 5,0 no Google</span>
+    <span class="chip" id="openChip">Aberto hoje até 19h</span>
+   </div>
    <h1 class="reveal-words">Transformando cabelos, elevando autoestima</h1>
    <p class="lead">Cortes, loiros e morena iluminada com saúde e experiência premium em Guaratiba.</p>
    <div class="d-flex flex-wrap gap-3"><a class="btn btn-gold btn-lg" data-wa href="https://wa.me/5521987610261"><i class="bi bi-whatsapp"></i> Agendar pelo WhatsApp</a><a class="btn btn-ghost btn-lg" href="#resultados">Ver resultados</a></div>
@@ -177,7 +181,8 @@
 </main>
 
 <footer><div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
- <div><span class="logo"><span>TO</span><small>Studio Thiago Oliveira Designer</small></span><p class="mb-0 mt-2">Caminho do Areal, 38 - Guaratiba, RJ</p></div>
+ <div><!-- Logo do cliente atualizada no rodapé -->
+ <img class="foot-logo" loading="lazy" src="img/logo-studio-to.jpeg" width="700" height="700" alt="Logotipo Studio T O"><p class="mb-0 mt-2">Caminho do Areal, 38 - Guaratiba, RJ</p></div>
  <div class="d-flex gap-3"><a href="#servicos">Serviços</a><a href="#horarios">Horários</a><a href="#contato">Contato</a><a target="_blank" rel="noopener" href="https://www.instagram.com/thiagooliveira.mechasrj" aria-label="Instagram @thiagooliveira.mechasrj"><i class="bi bi-instagram"></i></a></div>
  <small>© 2026 Studio T O Designer</small>
 </div></footer>

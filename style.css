@@ -91,3 +91,11 @@ footer{padding:2.5rem 0;border-top:1px solid var(--line);background:var(--bg2);c
 @media (hover:hover) and (pointer:fine){.glow-cursor.on{opacity:1}}
 @media (max-width:575px){.carousel{padding:2rem 2.5rem}.logo small{display:none}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal,.js .reveal-words .w{opacity:1;transform:none}.glow-cursor{display:none}}
+
+/* logo em destaque no hero */
+.hero-brand{display:flex;flex-direction:column;align-items:center;gap:.5rem;width:fit-content;margin:0 auto 1rem}
+.hero-brand img{width:clamp(220px,62vw,320px);height:auto;mix-blend-mode:screen;margin-bottom:-.5rem}
+.hero-brand .gl{font-size:.9rem;color:var(--gold);border-color:var(--gold);box-shadow:var(--glow)}
+.foot-logo{width:110px;height:auto;mix-blend-mode:screen;display:block}
+.hero{padding-top:5.5rem}
+@media (min-width:992px){.hero-brand{margin-left:0}}
